@@ -10,12 +10,12 @@ int main(){
     return 0;
 }
 int bitcount (int n)
-{
-   int x = 0 ;
-   while (n)
-   {
-      x++ ;
-      n &= (n - 1) ; 
-   }
-   return x ;
+    {
+    int x = 0 ;
+    while (n)
+    {
+    x++ ;
+    n &= (n - 1) ; 
+    }
+    return x ;
 }
